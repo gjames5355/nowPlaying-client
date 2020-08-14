@@ -5,7 +5,7 @@
   - Demo password: Password1!
 - Live link to API endpoints: https://murmuring-lowlands-61113.herokuapp.com/api
 
-- Link to Server Repo: https://github.com/thinkful-ei-gecko/NowPlaying-server
+- Link to Server Repo: https://github.com/gjames5355/nowPlaying-server
 - Link to Client Repo: https://github.com/gjames5355/nowPlaying-client
 
 ## Getting Started
