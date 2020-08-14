@@ -1,0 +1,48 @@
+.Directory {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    text-align: center;
+}
+
+.Directory .SearchBar {
+    margin: 10px 0px 15px 0px;
+}
+
+.Directory a {
+    text-decoration: none;
+}
+
+.Directory a:hover {
+    color: #00d838;
+}
+
+.directory-box {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Directory h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Directory .return-directory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.directory-dropdown {
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px){
+    .Directory {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .Directory .SearchBar {
+        width: 50%;
+    }
+}

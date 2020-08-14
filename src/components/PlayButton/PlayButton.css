@@ -1,0 +1,14 @@
+.FixedBar .fixed-play-button {
+  margin-left: 30px;
+  background: none;
+}
+
+.play {
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.play:hover {
+  color: #00d838;
+}

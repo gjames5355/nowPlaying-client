@@ -1,0 +1,55 @@
+#filterForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border: 2px outset white;
+  padding: 1em;
+  background: black;
+
+}
+
+#filter-buttons{
+  margin: 0.8em;
+}
+
+#filterForm button, #filterButton button {
+  width: 35%;
+}
+
+#filterForm label {
+  margin-bottom: 5px;
+}
+
+#filterForm input {
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  #filterForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 2px outset white;
+    border-radius: 3px;
+    padding: 10px 20%;
+  }
+
+  #filterForm label {
+    margin: 0.5em;
+  }
+
+  #filterButton .filter-button {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+}

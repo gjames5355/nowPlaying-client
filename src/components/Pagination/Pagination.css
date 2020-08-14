@@ -1,0 +1,9 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pagination .black-button {
+    margin: 5px;
+}

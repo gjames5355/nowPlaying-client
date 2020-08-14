@@ -1,0 +1,69 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  color: white;
+  background: rgba(0,0,0,0.7);
+}
+
+.Login legend {
+  font-size: 32px;
+  color: #00d838;
+  background: black;
+  font-weight: bold;
+}
+
+.Login .black-button {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#username-input, #password-input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid white;
+  border-radius: 3px;
+  text-align: left;
+  padding-left: 10px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: white;
+}
+
+#password-input {
+  margin-bottom: 10px;
+}
+
+.Login .sign-up:hover {
+  color: #00d838;
+}
+
+
+@media screen and (min-width: 768px){
+  .Login {
+    width: 60%;
+    margin: 0 auto;
+  } 
+
+  .Login *:not(legend) {
+    margin: 5px;
+  }
+ 
+}
+
+@keyframes slider {
+  0% {
+    width: 215px;
+  }
+
+  50% {
+    width: 235px;
+  }
+
+  100% {
+    width: 250px;
+  }
+}

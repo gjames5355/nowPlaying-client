@@ -1,0 +1,23 @@
+{
+    "version": 2,
+    "name": "Playing",
+    "env": {
+        "API_KEY": "process.env.API_KEY"
+    },
+    "routes": [
+      {
+        "src": "^/static/(.*)",
+        "dest": "/static/$1"
+      },
+      { "src": "/favicon.ico", "dest": "/favicon.ico" },
+      { "src": "/manifest.json", "dest": "/manifest.json" },
+      {
+        "src": "/service-worker.js",
+        "dest": "/service-worker.js"
+      },
+      {
+        "src": ".*",
+        "dest": "/index.html"
+      }
+  ]
+  }

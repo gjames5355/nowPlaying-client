@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fixed bar testing renders the play button within the fixed bar 1`] = `
+<div
+  className="fixed-bar"
+>
+  <div
+    className="fixed-bar-header"
+  >
+    <h2>
+      <Link
+        to="/undefined/undefined"
+      />
+    </h2>
+    <div
+      className="fixed-time"
+    >
+      <h3
+        className="media-timer"
+      >
+        00:NaN:NaN
+      </h3>
+      <PlayButton />
+    </div>
+  </div>
+  <AddCommentBox />
+</div>
+`;

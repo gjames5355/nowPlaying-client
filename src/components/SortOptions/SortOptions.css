@@ -1,0 +1,30 @@
+
+.sortOptions a:visited {
+  color: white !important;
+}
+
+.sortOptions a {
+  text-decoration: none;
+  line-height: 1.0;
+}
+
+.sortOptions p:hover {
+  color: #00d838;
+}
+
+.sortOptions a:hover {
+  color: #00d838;
+}
+
+.sortOptions a:hover span {
+  color: #00d838;
+}
+
+
+@media screen and (min-width: 768px){
+  .sortOptions .black-bg {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}

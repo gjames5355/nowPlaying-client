@@ -1,0 +1,29 @@
+#display-comment {
+    background-color: green;
+}
+
+.ThreadRoute {
+    color: white;
+}
+
+.ThreadRoute main > button {
+    width: 40%;
+    height: 40px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+}
+
+.ThreadRoute > main h4 {
+    font-size: 32px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px){
+
+    .ThreadRoute main {
+        display: flex;
+
+    }
+} 

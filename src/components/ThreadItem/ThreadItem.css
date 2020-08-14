@@ -1,0 +1,97 @@
+  .thread-item {
+  margin: 5px 1px;
+  border: 1px solid #00d838;
+  background-color: black;
+  color: white;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+  .thread-item a {
+    display: flex;
+    flex-direction: row;
+  }
+  .thread-item:hover {
+    background-color: #00d838;
+    color: black;
+  }
+
+  .thread-item:hover a {
+    color: black;
+  }
+
+  .thread-item-image-container {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thread-item-poster {
+    margin-top: -40px;
+  }
+
+.thread-item a { 
+  text-decoration: none;
+}
+
+
+.thread-item a:visited {
+  text-decoration: none;
+}
+
+.thread-item-poster {
+  object-fit: contain;
+}
+
+.thread-item-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  text-align: center;
+}
+
+.thread-item-info h3 {
+  font-size: 25px;
+  
+}
+
+.play-button-home-container {
+  width: 18%;
+  object-fit: contain;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-self: flex-end;
+}
+
+.thread-item:hover .play-button-home-container {
+  align-self: flex-end;
+}
+
+.last-comment {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px){
+  .play-button-home-container {
+    width: 18%;
+  }
+}
+
+@media screen and (min-width: 968px){
+  .play-button-home-container {
+    width: 12%;
+  }
+}
+
+@media screen and (min-width: 2000px){
+  .play-button-home-container {
+    width: 8%;
+  }
+}

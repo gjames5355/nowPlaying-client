@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegisterForm component renders the RegisterForm 1`] = `
+<form
+  className="Login"
+  name="register"
+  onSubmit={[Function]}
+>
+  <legend>
+    Register
+  </legend>
+  <label
+    htmlFor="email-input"
+  >
+    E-Mail:
+  </label>
+  <input
+    aria-label="Email"
+    id="email-input"
+    name="email"
+    onChange={[Function]}
+    placeholder="ex. john123@super.com"
+    required={true}
+    type="email"
+  />
+  <label
+    htmlFor="username-input"
+  >
+    Username:
+  </label>
+  <input
+    aria-label="Username"
+    id="username-input"
+    name="username"
+    onChange={[Function]}
+    placeholder="ex. John123"
+    required={true}
+    type="text"
+  />
+  <label
+    htmlFor="password-input"
+  >
+    Password:
+  </label>
+  <input
+    aria-label="Password"
+    autoComplete="off"
+    id="password-input"
+    name="password"
+    onChange={[Function]}
+    placeholder="******"
+    required={true}
+    type="password"
+  />
+  <div
+    className="error-message"
+    role="alert"
+  />
+  <button
+    className="black-button"
+    disabled="Please enter your email"
+    id="reg_button"
+    type="submit"
+    value="submit"
+  >
+    Submit
+  </button>
+  <Link
+    className="login-link"
+    to="/login"
+  >
+    Already have an account?
+  </Link>
+</form>
+`;

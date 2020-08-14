@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header testing renders the header 1`] = `
+<div
+  className="Header"
+>
+  <Link
+    to="/"
+  >
+    <h1>
+      <span>
+        N
+        <img
+          alt="glowing o"
+          className="header-o"
+          src="white-play-button-glow.png"
+        />
+        W 
+      </span>
+       PLAYING
+    </h1>
+  </Link>
+  <div
+    className="under-bar"
+  >
+    <Link
+      className="about-link"
+      onClick={[Function]}
+      to=""
+    >
+      ABOUT
+    </Link>
+    <LoginButton
+      classNames="log-button"
+    />
+  </div>
+</div>
+`;

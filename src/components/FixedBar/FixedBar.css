@@ -1,0 +1,93 @@
+.fixed-bar {
+  border-top: 1px solid grey;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background-color: black;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 2px solid #00d838;
+}
+
+.fixed-bar h2 a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #00d838;
+}
+
+.fixed-bar h2 a:hover {
+  color: white;
+}
+
+.fixed-bar .black-button {
+  font-weight: bold;
+  border: 1px solid white;
+  margin: 5px;
+}
+
+.media-timer {
+  color: white;
+}
+
+.fixed-time {
+  display: flex;
+  justify-content: center;
+}
+
+.fixed-bar h3 {
+  font-size: 1.08em;
+  display: inline;
+}
+
+.fixed-bar-header {
+  position: relative;
+}
+
+.fixed-bar-header button {
+  border: none;
+}
+
+
+#close_commentBox {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  z-index: 3;
+  color: #00d838;
+  font-size: 62px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  line-height: 0;
+}
+
+#close_commentBox:hover {
+  color: white;
+}
+
+
+@media screen and (min-width: 768px){
+  .fixed-bar {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+  }
+
+  .fixed-bar-header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fixed-bar-header h2 {
+    margin-right: 25px;
+  }
+
+
+}

@@ -1,0 +1,237 @@
+.CreateNewThreadForm {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0,0.7);
+    padding-bottom: 15px;
+}
+
+.CreateNewThreadForm .width70percent {
+    display: flex;
+    flex-direction: column;
+}
+
+.CreateNewThreadForm .width70percent * {
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.CreateNewThreadForm .return-directory h3 {
+    background: none;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.CreateNewThreadForm .return-directory h3 a {
+    text-decoration: none;
+}
+
+
+.CreateNewThreadForm .return-directory h3:hover a {
+    color: #00d838;
+    text-decoration: none;
+}
+
+.CreateNewThreadForm .return-directory svg {
+    margin-right: 10px;
+}
+
+.CreateNewThreadForm h3 {
+    background: black;
+    padding: 10px;
+    font-size: 26px;
+}
+
+.CreateNewThread input {
+    text-align: center;
+}
+
+.displayedSearch, .autoFill_form {
+    list-style-type: none;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    padding-bottom: 15px;
+}
+
+.displayedSearch h2, .autoFill_form h2 {
+    color: #00d838;
+}
+
+.displayedSearch:hover {
+    background-color: #00d838;
+    color: black;
+}
+
+.displayedSearch:hover h2, .displayedSearch:hover p {
+    color: black
+}
+
+.UL_displayMovies {
+    list-style-type: none;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.displayedSearch a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.displayedSearch a img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.autoFill_form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.autoFill_form img {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.autoFill_form h2 {
+    padding: 10px 0px 0px 0px;
+}
+
+.autoFill_form p {
+    padding: 10px;
+}
+
+.createdItems {
+    background: rgba(0,0,0,0.7);
+}
+
+.createdItems h4 {
+    font-size: 32px;
+    color: white;
+    
+}
+
+.results {
+    width: 100%;
+}
+
+.notCreatedItems {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+
+    .CreateNewThreadForm {
+        margin-bottom: 25px;
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+
+    .CreateNewThreadForm button {
+        border: 1px solid white;
+        color: white; 
+        background-color: transparent;
+        margin-left: 10px;
+    }
+
+    .CreateNewThreadForm button:hover {
+        cursor: pointer;
+    }
+
+    .grid_for_desktop {
+        background: rgba(0,0,0,0.7);
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .UL_displayMovies {
+        list-style-type: none;
+        list-style-position: inside;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .displayedSearch {
+        list-style-type: none;
+        width: 20%;
+        display: inline-block;
+        background: none;
+    }
+
+    .displayedSearch a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+
+    .displayedSearch a img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        width: 175px;
+        max-height: 250px;
+    }
+
+    .autoFill_form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .autoFill_form img {
+        width: initial;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .autoFill_form h2 {
+        padding: 10px;
+    }
+
+    .autoFill_form > p {
+        width: 40%;
+        margin: auto;
+    }
+    
+    .autoFill_form p {
+        padding: 10px;
+    }
+
+    .autoFill_form button {
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        margin-top: 10px;
+        width: 200px;
+        height: 40px;
+        transition: 0.3
+        s ease-in all;
+    }
+
+    .autoFill_form button:hover {
+        cursor: pointer;
+        color: green;
+        border: 1px solid green;
+    }
+
+    .results { 
+        margin: 0 auto;
+    }
+
+}

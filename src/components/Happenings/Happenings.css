@@ -1,0 +1,50 @@
+.Happenings {
+    flex: 1;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 15px;
+}
+    .Happenings h3 {
+        font-size: 28px;
+        background-color: black;
+    }
+
+    .happening-label {
+        font-weight: bold;
+    }
+
+.Happenings li:hover {
+    background-color: #00d838;
+    color: black;
+}
+
+.Happenings li:hover a {
+    color: black;
+}
+
+
+@media screen and (min-width: 768px){
+
+    .Happenings {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .Happenings ul {
+        list-style: none;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .Happenings .happenings-list {
+        margin: 0 auto;
+    }
+
+    .Happenings ul li {
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+}

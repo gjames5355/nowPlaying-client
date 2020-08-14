@@ -1,0 +1,48 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    justify-content: center;
+    color: white;
+    background: rgba(0,0,0,0.7);
+    border: none;
+  }
+  
+.Login legend {
+    font-size: 32px;
+    color: #00d838;
+    background: black;
+    font-weight: bold;
+}
+
+.Login .black-button {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.Login label {
+    margin-top: 20px;
+}
+
+#username-input, #password-input, #email-input {
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    border-radius: 3px;
+    text-align: left;
+    padding-left: 10px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5px;
+    color: white;
+}
+
+#password-input {
+margin-bottom: 10px;
+}
+
+.Login .login-link:hover {
+color: #00d838;
+}
